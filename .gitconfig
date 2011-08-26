@@ -1,0 +1,10 @@
+[user]
+	name = Cyril Fluck
+	email =cyril@fluck.fr
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+	co = checkout
+	st = status
+[color]
+	diff = true
