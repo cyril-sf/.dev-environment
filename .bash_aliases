@@ -1,1 +1,1 @@
-alias orb='cd ~/src/orbital'
+alias b='bundle exec'

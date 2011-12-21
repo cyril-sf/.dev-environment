@@ -30,11 +30,3 @@ begin
 rescue
   puts "Error loading Hirb. Run 'gem install hirb' to enable pretty object formatting."
 end
-
-# Use vim (or any other text editor) from inside irb to quickly test & write new code.
-begin
-  require 'rubygems'
-  require 'interactive_editor'
-rescue
-  puts "Error loading Interactive Editor. Run 'gem install interactive_editor' to use vi from inside irb"
-end
