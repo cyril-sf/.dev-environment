@@ -1,0 +1,19 @@
+# Overview
+
+What's needed for my (work) environment
+
+# Installation
+
+```
+cd ~
+git clone git@github.com:cyril-sf/.dev-environment.git
+touch ~/.bash_profile
+source ~/.dev-environment/install.bash
+```
+
+in `~/bash_profile`, add
+
+```
+export BASH_IT=~/.dev-environment
+source "$BASH_IT/load.bash"
+```
