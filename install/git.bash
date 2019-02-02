@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 git config --global user.name 'Cyril Fluck'
+git config --global user.email 'github@fluck.fr'
 
 git config --global core.excludesfile '~/.gitignore'
 
