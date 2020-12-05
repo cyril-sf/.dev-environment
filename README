@@ -7,13 +7,14 @@ What's needed for my (work) environment
 ```
 cd ~
 git clone git@github.com:cyril-sf/.dev-environment.git
-touch ~/.bash_profile
-source ~/.dev-environment/install.bash
-```
 
-in `~/bash_profile`, add
+touch ~/.zshenv
+echo "export BASH_IT=~/.dev-environment" >> ~/.zshenv
+echo 'source "$BASH_IT/load.zsh"' >> ~/.zshenv
+source ~/.zshenv
 
-```
-export BASH_IT=~/.dev-environment
-source "$BASH_IT/load.bash"
+touch ~/.zshrc
+echo 'source "$BASH_IT/interactive.zsh"' >> ~/.zshrc
+
+source ~/.dev-environment/install.zsh
 ```
